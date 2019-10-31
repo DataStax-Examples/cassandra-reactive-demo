@@ -40,7 +40,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <java.version>12</java.version>
+    <java.version>11</java.version>
     <dse-java-driver.version>2.0.1</dse-java-driver.version>
     <oss-java-driver.version>4.0.1</oss-java-driver.version>
     <slf4j.version>1.7.26</slf4j.version>
