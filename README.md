@@ -1,4 +1,4 @@
-# Reactive Programming with Apache Cassandra Demo
+# Reactive Programming with Apache Cassandra™ Demo
 
 Full demo application that interacts with Apache Cassandra using the Java DataStax driver, reactive programming and the [Spring Framework](https://spring.io/).
 
@@ -21,14 +21,13 @@ Contributor(s): [Alexandre Dutra](https://github.com/adutra), [Cedrick Lunven](h
 * [schema.cql](schema.cql) - The CQL schema for the keyspace that needs to be created
 * [application.yml](0_common/src/main/resources/application.yml) - The configuration file where you can set your parameters for connecting to the DSE cluster.
 
-## How this Sample Works
+## How this Works
 This sample contains 3 separate Spring Boot applications and a module that contains shared code between them.  The first application shows
 how to develop a synchronous api endpoint against the `Stock` data model schema found in `schema.cql`.  The second application extends
 that first application to show how to perform the same tasks asynchronously.  The third application takes that asynchronous application
 and modifies it to build it using the reactive programming methods available in the Java DataStax Driver.
 
-For details on how the code works we recommend watching the presentation video from DataStax Accelerate 2019 which explains the differences between the applications.
-This can be found here: [https://www.youtube.com/watch?v=Omck1ZGyUBU](https://www.youtube.com/watch?v=Omck1ZGyUBU).
+For details on how the code works we recommend watching the presentation video from DataStax Accelerate 2019 above.
 
 ## Setup and Running
 
