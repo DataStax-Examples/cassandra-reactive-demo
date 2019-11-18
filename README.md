@@ -1,14 +1,15 @@
-# Apache Cassandra® Reactive Demo
+# Reactive Programming with Apache Cassandra Demo
 
-A demo application that interacts with Apache Cassandra® using the DSE Java driver and reactive programming.
+Full demo application that interacts with Apache Cassandra using the Java DataStax driver, reactive programming and the [Spring Framework](https://spring.io/).
 
-This application was used as part of a presentation at DataStax Accelerate 2019, the video is available here:
+This was used as part of a presentation at [DataStax Accelerate](https://www.datastax.com/accelerate) 2019, the video is available below and walks you through taking an application from synchronous to asynchronous to reactive.
+
 [![YouTube Video Link](https://img.youtube.com/vi/Omck1ZGyUBU/0.jpg)](https://www.youtube.com/watch?v=Omck1ZGyUBU)
 
-Contributors [Alexandre Dutra](https://github.com/adutra), [Cedrick Lunven](https://github.com/clun)
+Contributor(s): [Alexandre Dutra](https://github.com/adutra), [Cedrick Lunven](https://github.com/clun)
 
 ## Objectives
-* To demonstrate how to build synchronous, asynchronous, and reactive API services using v2 of the DataStax Java Driver
+* Demonstrate how to build synchronous, asynchronous, and reactive API services using the Java DataStax Driver
 
 ## Project Layout
 
@@ -24,7 +25,7 @@ Contributors [Alexandre Dutra](https://github.com/adutra), [Cedrick Lunven](http
 This sample contains 3 separate Spring Boot applications and a module that contains shared code between them.  The first application shows
 how to develop a synchronous api endpoint against the `Stock` data model schema found in `schema.cql`.  The second application extends
 that first application to show how to perform the same tasks asynchronously.  The third application takes that asynchronous application
-and modifies it to build it using the reactive programming methods available in v2 of the DataStax Java driver.
+and modifies it to build it using the reactive programming methods available in the Java DataStax Driver.
 
 For details on how the code works we recommend watching the presentation video from DataStax Accelerate 2019 which explains the differences between the applications.
 This can be found here: [https://www.youtube.com/watch?v=Omck1ZGyUBU](https://www.youtube.com/watch?v=Omck1ZGyUBU).
