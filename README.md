@@ -1,6 +1,6 @@
 # Reactive Programming with Apache Cassandra™ Demo
 
-Full demo application that interacts with Apache Cassandra using the Java DataStax driver, reactive programming and the [Spring Framework](https://spring.io/).
+Full demo application that interacts with Apache Cassandra using the Java DataStax driver 4.4+, reactive programming and the [Spring Framework](https://spring.io/).
 
 This was used as part of a presentation at [DataStax Accelerate](https://www.datastax.com/accelerate) 2019, the video is available below and walks you through taking an application from synchronous to asynchronous to reactive.
 
@@ -58,4 +58,3 @@ To run the synchronous version of the application run the `SyncApplication` Conf
 To run the asynchronous version of the application run the `AsyncApplication` Configuration
 
 To run the reactive version of the application run the `ReactiveApplication` Configuration
-

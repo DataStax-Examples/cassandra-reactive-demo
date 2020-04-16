@@ -36,13 +36,12 @@
     <module>3_reactive</module>
   </modules>
   <name>Cassandra Reactive Demo</name>
-  <description>Demo application that interacts with Apache Cassandra® using the DSE Java driver and reactive programming</description>
+  <description>Demo application that interacts with Apache Cassandra® using the DataStax Java driver and reactive programming</description>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <java.version>11</java.version>
-    <dse-java-driver.version>2.0.1</dse-java-driver.version>
-    <oss-java-driver.version>4.0.1</oss-java-driver.version>
+    <java.version>12</java.version>
+    <java-driver.version>4.4.0</java-driver.version>
     <slf4j.version>1.7.26</slf4j.version>
     <logback.version>1.2.3</logback.version>
     <junit.version>5.4.2</junit.version>
@@ -53,24 +52,19 @@
     <dependencies>
       <!-- Java driver -->
       <dependency>
-        <groupId>com.datastax.dse</groupId>
-        <artifactId>dse-java-driver-core</artifactId>
-        <version>${dse-java-driver.version}</version>
-      </dependency>
-      <dependency>
         <groupId>com.datastax.oss</groupId>
         <artifactId>java-driver-core</artifactId>
-        <version>${oss-java-driver.version}</version>
+        <version>${java-driver.version}</version>
       </dependency>
       <dependency>
         <groupId>com.datastax.oss</groupId>
         <artifactId>java-driver-query-builder</artifactId>
-        <version>${oss-java-driver.version}</version>
+        <version>${java-driver.version}</version>
       </dependency>
       <dependency>
         <groupId>com.datastax.oss</groupId>
         <artifactId>java-driver-test-infra</artifactId>
-        <version>${oss-java-driver.version}</version>
+        <version>${java-driver.version}</version>
       </dependency>
       <!-- Logging -->
       <dependency>
@@ -360,9 +354,9 @@ limitations under the License.]]></inlineHeader>
   </build>
   <organization>
     <name>DataStax</name>
-    <url>https://datastax.com/</url>
+    <url>https://www.datastax.com/examples</url>
   </organization>
-  <url>https://github.com/datastax/cassandra-reactive-demo</url>
+  <url>https://github.com/DataStax-Examples/cassandra-reactive-demo</url>
   <inceptionYear>2019</inceptionYear>
   <licenses>
     <license>
@@ -373,9 +367,9 @@ limitations under the License.]]></inlineHeader>
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:git@github.com:datastax/cassandra-reactive-demo.git</connection>
-    <developerConnection>scm:git:git@github.com:datastax/cassandra-reactive-demo.git</developerConnection>
-    <url>https://github.com/datastax/cassandra-reactive-demo</url>
+    <connection>scm:git:git@github.com:DataStax-Examples/cassandra-reactive-demo.git</connection>
+    <developerConnection>scm:git:git@github.com:DataStax-Examples/cassandra-reactive-demo.git</developerConnection>
+    <url>https://github.com/DataStax-Examples/cassandra-reactive-demo</url>
     <tag>HEAD</tag>
   </scm>
   <developers>
